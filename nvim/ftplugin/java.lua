@@ -1,1 +1,1 @@
-vim.opt.expandtab = false -- convert tabs to spaces
+vim.opt.expandtab = false
