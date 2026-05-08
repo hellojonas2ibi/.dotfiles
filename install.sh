@@ -45,3 +45,8 @@ fc-cache
 echo "updating env"
 echo 'source /usr/share/nvm/init-nvm.sh' >> $HOME/.bashrc
 echo 'export PATH=$HOME/.local/bin/:$PATH' >> $HOME/.bashrc
+
+# install latest nodejs LTS version
+source /usr/share/nvm/init-nvm.sh
+nvm install --lts
+nvm use --lts
